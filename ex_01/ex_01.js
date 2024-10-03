@@ -1,3 +1,3 @@
 const priceElement = document.getElementById('price');
-    priceElement.innerHTML='0 €';
+    priceElement.textContent='0 €';
  
