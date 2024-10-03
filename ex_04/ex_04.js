@@ -1,2 +1,4 @@
 const element = document.getElementById('tag');
-element.remove();
+if (element) { 
+  element.remove();
+}
